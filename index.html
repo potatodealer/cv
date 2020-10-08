@@ -2,6 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <script type="text/javascript" src="http://static.neverendless-wow.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://static.neverendless-wow.com/js/armory-power.js"></script>
+    <script type="text/javascript">
+        $(document.ready(function () {
+            $("[data-tttext]").not($("#infoToolTip [data-tttext], #globalToolTip [data-tttext], .miscToolTip [data-tttext], img")).addClass("tttext_css");
+        });
+    </script>
     <title>Roberto Sanchez</title>
     <link rel="stylesheet" href="CSS/Styles.css" />
 </head>
@@ -9,7 +16,7 @@
     <table>
         <tr>
             <td>
-                <img src="profile-circle.png" height="200" alt="Me" />
+                <img src="profile-circle.png" data-tttitle="Roberto Sanchez" data-tttext="Level 21 Human"height="200" alt="Me" />
             </td>
             <td>
                 <h1>Roberto Sanchez</h1>
