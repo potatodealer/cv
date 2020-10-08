@@ -1,0 +1,29 @@
+﻿body {
+    background-color:#bf913d;
+}
+h1{
+    font-size:200px;
+    color:red;
+}
+img:hover{
+    background-color:gold;
+}
+/****************CLASS SELECTOR**************/
+.bacon{
+    background-color:green;
+}
+.broccoli{
+    background-color:red;
+}
+.circular{
+    border-radius:100%;
+}
+.wow {
+    height: 100px;
+    width: 100px;
+    background-image: url('../tooltip.png');
+}
+/****************ID SELECTOR**************/
+#title{
+    color:blue;
+}

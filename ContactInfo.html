@@ -2,28 +2,52 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="CSS/Styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h3>Contact Information</h3>
-    <p><strong>My Adress: </strong> 713 West Eagle Ave. </p>
-    <p><strong>Email:</strong> superpotatoes64@gmail.com</p>
-    <p><strong>Cellphone: </strong> yes</p>
-    <hr />
-    <form action="mailto:superpotatoes64@gmail.com" method="post">
-        <label>Your name: </label>
-        <input type="text" value="" />
-        <br />
-        <label>Your Email: </label>
-        <input type="text" value="" />
-        <br />
-        <label>Your Message: </label>
-        <br />
-        <textarea name="yourMessage" cols="10" rows="3"></textarea>
-        <br />
-        <input type="submit" value="submit" />
-
-    </form>
-
+    <div class="container">
+        <div class="jumbotron">
+            <h3>Contact Information</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <p><strong>My Adress: </strong> 713 West Eagle Ave. </p>
+                    <p><strong>Cellphone: </strong> yes</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Email:</strong> superpotatoes64@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                <form action="mailto:superpotatoes64@gmail.com" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Your name: </label>
+                            <input class="form-control" type="text" value="" /><br />
+                            <label>Your Email: </label>
+                            <input class="form-control" type="text" value="" /><br />
+                        </div>
+                        <div class="col-md-6">
+                            <label>Your Message: </label><br />
+                            <textarea class="form-control" name="yourMessage" cols="10" rows="3"></textarea><br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input class="btn btn-primary" type="submit" value="Submit" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
